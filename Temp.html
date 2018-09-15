@@ -1,0 +1,33 @@
+<b:section class='sidebar pixel-social blue' id='sidebar(2) social widget' maxwidgets='1' name='Top Social Widget' preferred='yes'>
+    <b:widget id='LinkList998' locked='false' title='Social Media' type='LinkList' version='1'>
+      <b:widget-settings>
+        <b:widget-setting name='link-5'>https://www.facebook.com/themedaddynet/</b:widget-setting>
+        <b:widget-setting name='link-3'>#</b:widget-setting>
+        <b:widget-setting name='link-4'>#</b:widget-setting>
+        <b:widget-setting name='text-1'>pinterest</b:widget-setting>
+        <b:widget-setting name='text-0'>instagram</b:widget-setting>
+        <b:widget-setting name='text-3'>gplus</b:widget-setting>
+        <b:widget-setting name='text-2'>youtube</b:widget-setting>
+        <b:widget-setting name='text-5'>facebook</b:widget-setting>
+        <b:widget-setting name='text-4'>twitter</b:widget-setting>
+        <b:widget-setting name='sorting'>NONE</b:widget-setting>
+        <b:widget-setting name='link-1'>#</b:widget-setting>
+        <b:widget-setting name='link-2'>#</b:widget-setting>
+        <b:widget-setting name='link-0'>#</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+                <div class='widget-content'>
+                  <ul id='social'>
+                    <b:loop values='data:links' var='link'>
+                      <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                    </b:loop>
+                  </ul>
+                </div>
+              </b:includable>
+    </b:widget>
+</b:section>
+
+
+
+
+
