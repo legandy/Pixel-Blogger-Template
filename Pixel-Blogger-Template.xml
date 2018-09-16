@@ -97,7 +97,7 @@ article{padding:0;overflow:hidden}
 .pixel-top-wrapper{position:relative;min-height:40px;color:#aaa;margin:0 auto}
 .pixel-social li{display:inline;padding:0;float:left;margin-right:5px}
 .pixel-social .widget ul{padding:0}
-.pixel-social .LinkList ul{text-align:center;margin-left: auto;margin-right: auto;max-width: 280px;}
+.pixel-social .LinkList ul{text-align:center;margin-left: auto;margin-right: auto;max-width: 220px;}
 .pixel-social #social a{display:block;width:48px;height:48px;line-height:36px;font-size:36px;color:$maincolor;transition:background .3s linear;-moz-transition:background .3s linear;-webkit-transition:background .3s linear;-o-transition:background .3s linear}
 .pixel-social #social a:before{display:inline-block;font:normal normal normal 22px/1 FontAwesome;font-size:inherit;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .pixel-social .bloglovin:before{content:"\f004"}
@@ -789,7 +789,7 @@ form input[type='text']:hover,#pixel-footer .contact-form-widget textarea:hover{
 #sidebar-wrapper{padding-top:20px}
 #pixel_menu,#nav{display:none}
 .selectnav{width:auto;color:#222;background:#f4f4f4;border:1px solid rgba(255,255,255,0.1);position:relative;border:0;padding:6px 10px!important;margin:5px 0;display:block;width:100%;max-width:200px}
-.pixel-navigation .selectnav{display:inline-block;margin:10px 0 0 10px}
+.pixel-navigation .selectnav{display:none;margin:10px 0 0 10px}
 #pixel-menu{text-align:left}
 }
 @media screen and (max-width: 880px) {
